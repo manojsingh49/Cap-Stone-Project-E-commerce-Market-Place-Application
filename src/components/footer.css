@@ -1,0 +1,74 @@
+.footer {
+  background-color: #f1dbdb;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.join-rewards {
+  flex: 2;
+}
+
+.join-rewards h3 {
+  margin-bottom: 10px;
+}
+
+.join-rewards p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.join-rewards input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.join-rewards button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.join-rewards button:hover {
+  background-color: #555;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.customer-support,
+.about-us {
+  text-align: right;
+}

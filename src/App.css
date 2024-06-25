@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d7ba0;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar-left a {
+  margin-right: auto;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right a {
+  margin-left: 20px;
+}
+
+.navbar-right .MuiSvgIcon-root {
+  margin-right: 5px;
+}
